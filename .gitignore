@@ -1,0 +1,13 @@
+# Dependencies & build outputs
+node_modules/
+dist/
+.vite/
+
+# Environment files
+.env
+.env.*
+
+# Editor & OS metadata
+.DS_Store
+Thumbs.db
+*.log
