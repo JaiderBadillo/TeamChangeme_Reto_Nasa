@@ -1,0 +1,5 @@
+investigation_id,run_id,material,sample_width_cm,concurrent_airflow_cm_s,oxygen_vol_pct,source_report,source_table,source_printed_page,source_url
+BASS,GMT96-T8,SIBAL,2.2,5,21,NASA/TM-20210011385,7.1,96,https://ntrs.nasa.gov/api/citations/20210011385/downloads/TM-20210011385.pdf
+BASS,GMT96-T7,SIBAL,2.2,10,21,NASA/TM-20210011385,7.1,96,https://ntrs.nasa.gov/api/citations/20210011385/downloads/TM-20210011385.pdf
+BASS,GMT131-T10,SIBAL,1.2,11,21,NASA/TM-20210011385,7.1,96,https://ntrs.nasa.gov/api/citations/20210011385/downloads/TM-20210011385.pdf
+BASS,GMT222-T11,SIBAL,1.2,19,21,NASA/TM-20210011385,7.1,96,https://ntrs.nasa.gov/api/citations/20210011385/downloads/TM-20210011385.pdf

@@ -12,8 +12,8 @@ El reto [Flame in Freefall de NASA Space Apps](https://www.spaceappschallenge.or
 
 | Insumo o decisión | Estado al redactar esta guía |
 | --- | --- |
-| Repositorio | En `main` están el contexto general y el CSV de M7. El frontend, el backend y la API de IA quedan por implementar. |
-| Mediciones listas para visualizar | Cuatro condiciones de flujo dentro de **un mismo ensayo** M7, investigación BASS-II, PSI-25. |
+| Repositorio | Consulta la rama de trabajo. Los CSV documentados aquí son M7 de BASS-II y cuatro ensayos de SIBAL del BASS original. |
+| Datos tabulados disponibles | BASS-II: cuatro pares de flujo y tasa dentro de **un mismo ensayo** M7. BASS original: condiciones de cuatro ensayos de SIBAL, con flujo y O₂. |
 | Otras investigaciones | Se pueden incorporar fichas editoriales al verificar sus metadatos, hallazgos y enlaces. SAME-R, SoFIE y FLEX-2 son candidatos. Las mediciones de otras fichas requieren curación propia. |
 | Lista seleccionada por el equipo | Jaider indicó que la selección y un resumen de NASA están en `G1_NASA2026`. Ese archivo no estaba disponible al preparar esta guía. Si llega a la rama, úsalo para confirmar el catálogo con el equipo. |
 | Herramientas e idioma | Pendientes de acordar. Si la rama sigue vacía, React + TypeScript + Vite es una opción para el prototipo. Redacta la interfaz en español durante el desarrollo y confirma el idioma y formato de entrega con el equipo. Centraliza los textos para poder traducirlos. |
@@ -73,7 +73,7 @@ Como ingeniero de soporte vital, quiero filtrar evidencia por O₂ y presión pa
 Como investigador, quiero abrir una ficha para entender el montaje y consultar la publicación original.
 
 - Al abrir BASS-II, veo PMMA, geometría, flujo opuesto, fuente del estudio y mediciones M7 con unidades.
-- Puedo seguir el vínculo a PSI-25 y al informe NASA/TM-20210011385. El resultado indica la tabla 5.1, página impresa 56 y ensayo M7. 
+- Puedo seguir el vínculo a PSI-25 y al informe NASA/TM-20210011385. El resultado indica la tabla 5.1, página impresa 57 y ensayo M7. 
 - El acceso al informe y a los datos queda disponible en móvil y mediante teclado.
 
 ### HU-03 / US-03 · Entender una investigación con IA
@@ -124,6 +124,8 @@ Lee [`datasets/bass_ii_m7.csv`](../datasets/bass_ii_m7.csv) como fuente de verda
 - Para un valor desconocido usa `null`. Preserva el cero explícito y registra método, unidad y alcance al normalizar. Distingue presión absoluta, O₂ ambiental y O₂ de corrientes de alimentación. Un rango inicial/final puede informarse como contexto y requiere una regla explícita si se usa en filtros.
 
 **Cobertura inicial.** PSI-25 tiene datos tabulares del equipo. Una ficha adicional puede contener datos editoriales respaldados y estar marcada **Solo ficha**. [SAME-R, PSI-101](https://psi.nasa.gov/physci/repo/data/investigations/PSI-101), [SoFIE](https://science.nasa.gov/biological-physical/investigations/sofie/) y [FLEX-2](https://www.nasa.gov/wp-content/uploads/2025/07/flame-extinguishment-experiment-flex.pdf) ofrecen puntos de partida. Los datos de prueba sintéticos se limitan a pruebas automatizadas o manuales separadas del catálogo publicado.
+
+**BASS original.** [El CSV de SIBAL](../datasets/bass_sibal_concurrent.csv) recoge los cuatro ensayos de BASS identificados en la tabla 7.1, página impresa 96. Registra ancho de muestra, flujo concurrente y O₂. La tabla 7.1 reporta condiciones de ensayo y omite valores tabulados de velocidad de propagación. En el comparador, muestra estas condiciones y la procedencia. BASS usa tejido SIBAL en flujo concurrente en esta selección y M7 usa PMMA en flujo opuesto, por lo que sus datos requieren visualizaciones independientes.
 
 ## 7. Reglas de comparación, escenarios e IA
 
