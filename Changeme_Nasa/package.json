@@ -1,0 +1,11 @@
+{
+  "name": "combuslab-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "api": "node --env-file-if-exists=.env server/dev.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.16.0"
+  }
+}
