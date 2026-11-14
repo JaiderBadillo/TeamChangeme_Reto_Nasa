@@ -1,0 +1,161 @@
+
+=== PAGINA 1 ===
+Flame in Freefall | Resumen del desafío NASA Space Apps Challenge 2026 
+RESUMEN AMPLIADO DEL DESAFÍO 
+Flame in Freefall  
+AI-Powered Fire Safety Insights from Microgravity Combustion Data 
+NASA Space Apps Challenge 2026 
+Este documento reúne y organiza los aspectos principales del desafío y la información complementaria proporcionada 
+sobre sus objetivos, investigaciones, condiciones experimentales y posibles aplicaciones. 
+1. ¿De qué trata el desafío? 
+Los resultados de experimentos de combustión en baja gravedad, realizados por ejemplo en la Estación Espacial 
+Internacional (ISS), se publican en la base de datos Physical Science Informatics (PSI) de NASA. Sin embargo, el volumen 
+de información puede ser abrumador: los datos son difíciles de localizar, comparar y, sobre todo, interpretar.  
+El reto consiste en desarrollar un dashboard web interactivo impulsado por inteligencia artificial (IA) que resuma, 
+clasifique y explique investigaciones sobre combustión en microgravedad. La finalidad es convertir datos científicos 
+complejos en conocimientos fundamentales para mejorar la seguridad contra incendios en misiones espaciales.  
+2. Objetivos y resultados que debe facilitar la solución 
+La plataforma debería ayudar a: 
+• Identificar investigaciones relevantes: encontrar los estudios más útiles para las necesidades de seguridad de 
+naves, estaciones espaciales, hábitats lunares o marcianos y vehículos presurizados. 
+• Apoyar modelos predictivos: extraer datos que permitan estudiar y modelar la inflamabilidad de materiales y 
+posibles escenarios de incendio durante la exploración espacial. 
+• Orientar nuevas tecnologías: destacar investigaciones que puedan contribuir al desarrollo de controles, sensores, 
+equipos y métodos de seguridad contra incendios de próxima generación. 
+El público potencial incluye profesores, estudiantes de pregrado y posgrado, investigadores aeroespaciales e ingenieros. 
+Por ello, la información debe ser técnicamente rigurosa, pero comprensible y fácil de explorar.  
+3. ¿Por qué el fuego se comporta diferente en el espacio? 
+En la Tierra, el aire caliente tiende a subir por efecto de la flotabilidad, lo que influye en la forma y el movimiento de la s 
+llamas. En microgravedad ese efecto se reduce notablemente: las llamas pueden adoptar formas más esféricas y la 
+combustión depende en mayor medida de la difusión del oxígeno y de los gases combustibles. Por eso, los resultados 
+terrestres no siempre permiten predecir directamente lo que ocurrirá dentro de una nave o hábitat espacial.  
+La concentración de oxígeno, la presión, la ventilación y el flujo de aire son variables esenciales. Un cambio en estas 
+condiciones puede modificar la facilidad con la que un material se enciende, la velocidad con que arde y la posibilidad 
+de mantener o extinguir una llama. 
+4. Oxígeno y condiciones de futuras misiones lunares 
+Los trajes espaciales se llenan con oxígeno al 100 % y operan a una presión aproximada de 4,3 psi (libras por pulgada 
+cuadrada), frente a los 14,7 psi de la presión atmosférica terrestre al nivel del mar. Antes de las caminatas espaciales, 
+los astronautas respiran oxígeno puro para eliminar el nitrógeno absorbido por el cuerpo y reducir el riesgo de 
+enfermedad por descompresión. 
+Para facilitar las excursiones lunares y reducir el tiempo de pre respiración, se prevé que una base lunar y los vehículos 
+presurizados utilicen una presión y una concentración de oxígeno intermedias entre las de un traje espacial y las de la 
+atmósfera terrestre. Se considera posible una concentración de oxígeno del 30 % o superior, con una presión de hasta 
+aproximadamente 10,2 psi. Esto representa más de un 40 % de aumento en la concentración de oxígeno frente al aire 
+terrestre y puede hacer que muchos materiales sean considerablemente más inflamables. 
+=== PAGINA 2 ===
+Flame in Freefall | Resumen del desafío NASA Space Apps Challenge 2026 
+Uno de los estudios de microgravedad con mayores concentraciones de oxígeno fue Cool Flames Investigation with 
+Gases (CFI-G), parte del proyecto ACME. En estas pruebas, la cámara de combustión contenía una mezcla de nitrógeno 
+y un gas combustible, como propano, mientras una mezcla de oxígeno y nitrógeno —con hasta 85 % de oxígeno— fluía 
+desde un quemador esférico y generaba una llama de configuración invertida (de adentro hacia afuera).  
+5. Investigaciones y experimentos relevantes 
+Los siguientes experimentos y programas aportan evidencia sobre inflamabilidad, combustión, extinción y detección. No 
+todos estudian exactamente el mismo fenómeno; el dashboard debe explicar su alcance para evitar comparaciones 
+incorrectas. 
+• BASS y BASS-II: estudian la combustión y la inflamabilidad de materiales sólidos en microgravedad.  
+• Saffire I, II y III: investigaciones complementarias sobre la combustión de materiales y la seguridad contra 
+incendios en vehículos espaciales. 
+• SAME y SAME-R: estudian el humo y los aerosoles, con aplicaciones para la detección de incendios. 
+• FLEX y FLEX-2: analizan la combustión y extinción de gotas de combustible líquido, incluyendo el uso de gases 
+como dióxido de carbono y helio. 
+• ACME: conjunto de seis investigaciones sobre llamas de combustibles gaseosos y fenómenos de combustión en 
+microgravedad. 
+• CFI y CFI-G: investigan llamas frías y combustión de gases; CFI-G incluye pruebas con concentraciones elevadas de 
+oxígeno. 
+• SPICE: Smoke Point In Co-flow Experiment; estudia aspectos de la formación de hollín y el comportamiento de 
+llamas en flujo. 
+• SLICE: Structure & Liftoff In Combustion Experiment; estudia la estructura y el desprendimiento de llamas.  
+6. Otras investigaciones PSI que aportan contexto 
+• DAFT y DAFT-2: utilizaron un instrumento empleado en SAME y SAME-R, pero para detectar polvo y aerosoles. Esto 
+muestra que tecnologías de medición pueden servir para distintos problemas. 
+• BRE (Burning Rate Emulator): pertenece al proyecto ACME. Aunque utiliza combustibles gaseosos, estudia la 
+inflamabilidad de materiales en atmósferas quietas en función de las propiedades del material. 
+También existen otras investigaciones de combustión dentro de PSI que pueden aportar información a la seguridad 
+contra incendios, aunque su relación con el reto sea menos directa. Conviene incluirlas con una etiqueta clara de 
+relevancia y explicar por qué podrían ser útiles. 
+7. Hardware y entornos experimentales 
+Conocer el equipo utilizado ayuda a entender qué se midió y qué experimentos pueden compararse. Algunos grupos de 
+investigaciones comparten plataformas experimentales: 
+• ACME: sus seis experimentos utilizaron llamas de combustibles gaseosos y el mismo hardware modular ACME, 
+instalado en el Combustion Integrated Rack (CIR). 
+• FLEX, FLEX-2 y CFI: estudiaron gotas de combustible líquido en el Multi-user Droplet Combustion Apparatus 
+(MDCA), también instalado en el CIR. 
+• BASS, BASS-II, SPICE y SLICE: incluyeron combustibles sólidos y gaseosos. Se realizaron en el Microgravity 
+Science Glovebox (MSG), utilizando el conducto modular de flujo impulsado por ventiladores desarrollado para 
+SPICE. 
+Compartir hardware puede facilitar comparaciones, pero no significa que los experimentos tengan objetivos, 
+combustibles o condiciones idénticas. El dashboard debe mostrar esas diferencias. 
+8. ¿Qué información debería mostrar el dashboard? 
+• Objetivo experimental: qué pregunta buscaba responder cada investigación. 
+• Combustible y muestra: tipo de combustible o material, forma y tamaño de las muestras o quemadores. 
+=== PAGINA 3 ===
+Flame in Freefall | Resumen del desafío NASA Space Apps Challenge 2026 
+• Condiciones de prueba: concentración de oxígeno, presión, velocidad del flujo de aire y otras condiciones 
+relevantes. 
+• Variables: qué parámetros cambiaron entre pruebas de una misma investigación y cuáles se mantuvieron 
+constantes. 
+• Sensores y mediciones: instrumentos utilizados, variables registradas y tipo de datos disponibles. 
+• Resultados: observaciones, conclusiones, limitaciones y relevancia para la seguridad. 
+• Relaciones entre estudios: similitudes, diferencias, hardware compartido y posibilidades de comparación. 
+9. Funcionalidades recomendadas para la plataforma 
+• Búsqueda y filtros: localizar investigaciones por material, combustible, objetivo, condición experimental, sensor o 
+tipo de resultado. 
+• Resúmenes con IA: explicar en lenguaje claro el objetivo, método, variables, resultados y relevancia de cada 
+estudio. 
+• Comparación: contrastar experimentos y advertir cuando sus condiciones o métodos no sean equivalentes. 
+• Ranking de relevancia: priorizar estudios según el escenario de seguridad seleccionado y explicar los criterios de 
+clasificación. 
+• Visualizaciones: presentar variables y resultados mediante gráficos, tablas y fichas comparativas. 
+• Extracción para modelos: facilitar la identificación de datos que puedan utilizarse en modelos predictivos de 
+inflamabilidad y escenarios de incendio. 
+• Trazabilidad: enlazar cada resumen, dato o conclusión con el experimento y la fuente original de NASA.  
+10. Gravedad parcial: qué se sabe y qué falta 
+Aunque NASA se prepara para regresar a la superficie lunar y establecer una base como paso hacia la exploración 
+humana de Marte, actualmente PSI no dispone de datos de combustión obtenidos directamente en gravedad parcial. Se 
+espera que en el futuro se incorporen resultados de investigaciones como Lunar-g Combustion Investigation (LUCI) y 
+Flammability of Materials on the Moon (FM2). 
+Como aproximación, el experimento E-FIELD Flames de ACME estudió efectos de campos eléctricos sobre los iones que 
+aparecen naturalmente en las llamas, simulando ciertos efectos asociados a la gravedad parcial. Además, los 
+resultados de microgravedad y gravedad normal pueden servir para establecer límites aproximados del comportamiento 
+en gravedades intermedias; no obstante, no reemplazan los experimentos realizados directamente en esas condiciones.  
+11. Aplicaciones en la Tierra y límites del reto 
+Aunque el enfoque principal es la exploración espacial, los conocimientos y tecnologías derivados de PSI también 
+pueden beneficiar a la Tierra. Por ejemplo, los extintores de niebla de agua fina desarrollados para la ISS tienen 
+aplicaciones terrestres. Asimismo, la tecnología de NASA ha contribuido a mejorar la detección de humo y equipos para 
+bomberos, como ropa de protección y tanques de aire. 
+La seguridad contra incendios relacionada con cohetes y propelentes generalmente queda fuera del alcance de las 
+investigaciones PSI consideradas en el reto. Las altas velocidades dentro de los motores hacen que la combustión sea, 
+en la práctica, independiente de la gravedad, aunque el lanzamiento de un cohete sí depende fuertemente de ella.  
+12. ¿Cómo reconocer una solución sólida? 
+Una propuesta sólida no debe limitarse a mostrar gráficos o generar resúmenes automáticos. Debe ayudar a responder 
+qué investigación es relevante para un escenario, qué evidencia la respalda, bajo qué condiciones se obtuvo y qué 
+diferencias existen frente a otros experimentos. 
+• Vincular los datos y conclusiones con sus fuentes originales. 
+• Mostrar unidades, condiciones y métodos para que las comparaciones sean transparentes. 
+• Distinguir entre resultados medidos, interpretaciones y predicciones generadas por IA. 
+• Advertir cuando falten datos o cuando dos experimentos no sean directamente comparables.  
+• Presentar la información de forma útil tanto para especialistas como para estudiantes. 
+=== PAGINA 4 ===
+Flame in Freefall | Resumen del desafío NASA Space Apps Challenge 2026 
+13. Glosario breve 
+• ACME: Advanced Combustion via Microgravity Experiments. 
+• BASS: Burning and Suppression of Solids. 
+• CIR: Combustion Integrated Rack, plataforma experimental de combustión de la ISS. 
+• CFI-G: Cool Flames Investigation with Gases. 
+• CIR / MDCA: instalación y aparato para investigaciones de combustión de gotas. 
+• ISS: International Space Station o Estación Espacial Internacional. 
+• MSG: Microgravity Science Glovebox. 
+• PSI: Physical Science Informatics, repositorio de datos científicos de NASA. 
+• Inflamabilidad: facilidad con la que un material puede encenderse y mantener la combustión. 
+• Microgravedad: condición en la que los efectos aparentes de la gravedad son muy reducidos. 
+Conclusión 
+Flame in Freefall busca transformar décadas de investigación sobre combustión en microgravedad en conocimiento 
+accesible y útil para la seguridad espacial. El valor del dashboard estará en conectar investigaciones, hacer visibles sus 
+condiciones experimentales, comparar resultados con criterio y explicar cómo la evidencia puede apoyar la prevención, 
+detección y supresión de incendios en futuras misiones a la Luna y Marte. La IA debe acelerar el análisis, pero siempre 
+con trazabilidad, contexto científico y límites explícitos. 
+Fuentes y alcance del documento 
+Video proporcionado: https://youtu.be/AVuEiKxOpc0 
+Descripción y material oficial del desafío: https://hackathlone.com/challenges/flame-in-freefall 
+Nota: este documento integra la información complementaria suministrada por la usuaria con el resumen previo del 
+desafío. Es una síntesis explicativa, no una transcripción literal del video ni de la documentación original de NASA.  

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.hypothesis/
+tmp/psi_public_client.js
+*.duckdb.wal
+/data/
+/outputs/
+/datasets/*.csv
+!/datasets/supabase_column_map.csv
+/datasets/*.parquet
+/datasets/*.duckdb

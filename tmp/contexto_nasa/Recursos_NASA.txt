@@ -1,0 +1,52 @@
+La NASA no respalda a ninguna entidad ajena al gobierno de los Estados Unidos y no se hace responsable de la información contenida en sitios web que no pertenezcan al gobierno estadounidense. En el caso de sitios web ajenos al gobierno de los Estados Unidos, los participantes deben cumplir con los parámetros de uso de datos establecidos por cada sitio web en particular.
+
+Datos y recursos de la NASA Repositorio de datos PSI (Physical Sciences Informatics): Fuente de los datos sobre los cuales se basará la aplicación espacial (Space App) de la NASA.
+https://psi.nasa.gov/physci/repo/search?q=combustion
+Ya hay algunos que escogí en el documento G1_NASA2026
+
+Investigación sobre combustión de la NASA: Información básica sobre la mayoría de las investigaciones sobre combustión cuyos datos se encuentran en el Repositorio de datos PSI.
+https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/ Esta ya está resumida en el documento G1_NASA2026
+
+NASA ScienceCasts: «El poder de estudiar la combustión en la EEI» (The Power of Studying Combustion on the ISS): Introducción a la investigación sobre combustión que realiza la NASA en la Estación Espacial Internacional, presentada a través de un video de 3,6 minutos de duración (2018).
+https://www.youtube.com/watch?v=W1oXykoz9zg 
+Guía para investigadores sobre la ciencia de la combustión en la Estación Espacial Internacional: Un análisis de 2015 sobre las investigaciones de la NASA en materia de combustión, realizadas o planificadas para la Estación Espacial Internacional. La información básica sobre la mayoría de las investigaciones descritas en este documento de más de 50 páginas se encuentra disponible en el Repositorio de datos PSI.
+https://www.nasa.gov/missions/station/a-researchers-guide-to-combustion-science/ Lo que dice el texto de resumen del pdf:
+https://www.nasa.gov/wp-content/uploads/2016/05/np-2015-10-034-jsc_combustion_in_reduced_gravity-iss-mini-book-011116-508.pdf?emrc=c9b273 
+Los procesos de combustión siguen siendo uno de los fenómenos peor controlados; no obstante, tienen un impacto significativo en la salud, el bienestar y la seguridad de las personas.
+La combustión se produce cuando el combustible y el oxígeno reaccionan para generar dióxido de carbono, agua y calor. La investigación sobre la combustión conlleva el desarrollo de una comprensión cuantitativa, integral y predictiva de este complejo proceso. En ausencia de gravedad, es posible suprimir el empuje ascensional (flotabilidad), lo que permite reducir los análisis a sistemas unidimensionales mucho más sencillos, contribuyendo así al acervo de conocimientos existentes.
+Para futuras misiones de exploración, la seguridad contra incendios constituye un elemento operativo fundamental para minimizar la probabilidad y el impacto de incendios accidentales en naves espaciales y hábitats humanos. Una mejor comprensión de la combustión en condiciones de gravedad reducida resulta esencial para adaptar los conceptos y sistemas de seguridad contra incendios a las condiciones del entorno espacial.
+
+Esta guía para investigadores ofrece una visión general de la investigación en el campo de la ciencia de la combustión, incluyendo estudios previos, lecciones aprendidas, oportunidades para futuras investigaciones e información introductoria sobre las posibilidades de financiación.
+
+Apolo 1: Información sobre la tripulación, la misión, el incendio ocurrido durante una prueba previa al lanzamiento —que resultó en la muerte de la tripulación—, la investigación posterior y las lecciones aprendidas.
+https://sma.nasa.gov/sma-disciplinhttps://www.youtube.com/watch?v=W1oXykoz9zges/accllp/apollo-1 
+
+Apolo 13: Información sobre la tripulación, la misión, la explosión de un tanque de oxígeno durante el vuelo hacia la Luna, la investigación posterior y las lecciones aprendidas.
+https://sma.nasa.gov/sma-disciplines/accllp/apollo-13 
+
+Hace 25 años: Incendio a bordo de la estación espacial Mir: Información básica sobre un incendio —causado por el fallo de un generador de oxígeno— ocurrido en la estación espacial rusa Mir en 1997, durante operaciones conjuntas en preparación para la Estación Espacial Internacional (que comenzó a estar habitada de forma permanente en el año 2000).
+https://www.nasa.gov/history/25-years-ago-fire-aboard-space-station-mir/ 
+
+Tanques de aire para bomberos: Información básica sobre la adaptación, en la década de 1970, de la tecnología utilizada en los trajes espaciales para mejorar los tanques de aire y los equipos de respiración de los bomberos.
+https://spinoff.nasa.gov/node/9582 
+
+Detector de incendios: Información básica sobre un detector de humo desarrollado en la década de 1970 para el transbordador espacial; este dispositivo es capaz de distinguir entre humo y polvo, lo que reduce la cantidad de falsas alarmas. Por ello, cuenta con aplicaciones industriales (por ejemplo, en operaciones mineras). Nueva tecnología para el equipamiento de bomberos: Información básica sobre una aplicación, en la década de 1980, de la tecnología de los trajes espaciales de la NASA para mejorar la indumentaria de los bomberos.
+https://spinoff.nasa.gov/node/9407 
+
+Nueva tecnología para el equipamiento de bomberos: Información básica sobre una aplicación, en la década de 1980, de la tecnología de los trajes espaciales de la NASA para mejorar la indumentaria de los bomberos.
+https://spinoff.nasa.gov/node/9918 
+
+
+
+LINKS
+https://sma.nasa.gov/sma-disciplines/accllp/apollo-1
+https://www.nasa.gov/wp-content/uploads/2016/05/np-2015-10-034-jsc_combustion_in_reduced_gravity-iss-mini-book-011116-508.pdf?emrc=c9b273
+https://www.nasa.gov/history/25-years-ago-fire-aboard-space-station-mir/
+https://sma.nasa.gov/sma-disciplines/accllp/apollo-13
+https://www.nasa.gov/missions/station/a-researchers-guide-to-combustion-science/
+https://spinoff.nasa.gov/node/9407
+https://spinoff.nasa.gov/node/9582
+https://spinoff.nasa.gov/node/9918
+https://psi.nasa.gov/physci/repo/search?q=combustion
+https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/
+https://www.youtube.com/watch?v=W1oXykoz9zg

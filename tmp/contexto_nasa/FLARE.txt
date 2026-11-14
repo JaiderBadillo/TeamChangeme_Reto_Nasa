@@ -1,0 +1,17 @@
+Physical Sciences
+Flammability Limits At Reduced-g Experiment (FLARE)
+To develop a methodology to correlate material flammability limits in normal gravity andmicrogravity, which allows quantitative estimation of material flammability limit inmicrogravity based on the flammability data obtained on the ground. The project involvesan international team including JAXA, NASA, ESA and universities in Japan, USA andFrance.
+Experimental Approach
+• Perform extensive research via ground-based experiments, including 1g and parabolicflight tests, and via theoretical formulations.• Flight experiments on orbit in ISS/KIBO will be performed to verify the correlation. Theflight experiments on orbit are expected in 2017 or later.• By the end of the project, a new fire safety standard test method for screeningspacecraft materials will be proposed that addresses the shortcomings of existingstandard test method such as NASA STD 6001B.
+Relevance/Impact
+• Fundamental Science – studying materials flammability in space allows us toaccurately control the flow field and thus elucidate the importance of a criticalDamkohler number (flow time /reaction time) on flame extinction.• Efficiency – The anticipated improved methodology should reduce time and cost for thespacecraft material screening.• Safety – Terrestrial fire safety; spacecraft fire safety
+Development Approach
+• Experiment uses same hardware as JAXA’s “Solid Combustion”• International research team
+Contact Information
+Project Manager: Shigeki Kamigaichi, JAXAProject Scientist: Masao Kikuchi, JAXAJAXA PI: Prof. Osamu Fujita, Hokkaido Univ.US Co-Is: Dr. Sandra Olson, NASA GRCDr. Harold Beeson, NASAProf. Carlos Fernandez-Pello, U. C. BerkeleyInternational Co-Is: Many Japanese Co-Is, Guillaume Legros,U. Pierre Marie Curie, Thomas Rohr, ESA, Marika Orlandi, ESACustomers/Adopters (Push): HEOMD/Space Life and Physical Sciences
+Keep Exploring
+Discover More Topics From NASA
+Missions
+Humans in Space
+Climate Change
+Solar System

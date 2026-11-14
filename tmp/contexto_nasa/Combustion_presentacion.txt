@@ -1,0 +1,589 @@
+
+=== PAGINA 1 ===
+1 
+Burning Questions in Gravity-Dependent 
+Combustion Science 
+November 28, 2012 
+David L. Urban, Ph.D. NASA GRC, Cleveland OH 
+Francis Chiaramonte, Ph.D.  NASA HQ, Washington DC 
+=== PAGINA 2 ===
+2 
+Combustion Relevance 
+Combustion is: 
+• Our primary energy source (85%) 
+• The primary cause of global warming, 
+• The primary cause of air pollution—affects people directly 
+every day, 
+• An inherent part of many industrial processes 
+• A major source of the loss of property and life, 
+• The power source for portable applications 
+• A catastrophic hazard for the manned space flight program, 
+• A major source of new materials (nano-tubes, diamond, 
+ceramics etc.), 
+• Arguably man’s first technology but also remarkably 
+complex.  
+The biggest challenge to the discipline is that combustion has been so pervasive 
+for so long in everyday life that people mistakenly believe it is well understood.  
+The reality is that substantial improvements in the quality of life in space or here 
+on earth will require improvements in our ability to predict and control 
+combustion. 
+=== PAGINA 3 ===
+3 
+Terrestrial issues where microgravity  
+combustion can have impact 
+• Energy 
+– High-efficiency, low-emission flames can be near limit, which are 
+unstable, where kinetics are important 
+• Environment (e.g., global warming) 
+– Carbon sequestration 
+• High oxygen flames 
+– Oxy-fuel flames 
+– Integrated Gasification Combined Cycle (IGCC) 
+– Reduced CO2 through use of fuels that are high in H2 
+• Need for improved understanding of transport and instability 
+– Soot control and reduction 
+• Combustion Technology 
+– Electric field control of flames 
+• Hydrogen safety (alternative fuels) 
+• Mine safety-premixed systems 
+• Fire Safety 
+
+=== PAGINA 4 ===
+4 
+Demonstration of the significance of low speed air flows on material 
+flammability. 
+ 
+Demonstration of the non-monotonic dependence of flame spread on 
+gravity level.  Intermediate gravity levels may be the most hazardous. 
+ 
+Observation that material ignitability can increase at reduced 
+pressure. 
+ 
+Demonstration that flame spread behavior in low-gravity is 
+substantially different from 1-g 
+ 
+Invalidation of the prevalent assumption that 1-g is always a worse 
+case than low-g 
+ 
+ 
+Ground-based results: Flame Spread 
+
+=== PAGINA 5 ===
+5 
+Experimental demonstration of the intrusion of buoyancy on flame 
+structure even at high Froude numbers. 
+ 
+Simple flame shape models have now been validated by ground-based 
+microgravity testing providing classical data for the text books of the 
+future.  
+ 
+Ground-based results: Non-Premixed Systems 
+
+=== PAGINA 6 ===
+6 
+Pre-ISS Flight Experiment History 
+Condensed Fuel Flame Spread/Burning Rate Experiments 
+– SSCE (1990-1998 )     Middeck      Flame Spread 
+– WIF, FFFT, RITSI, OFFS, FFFT-Mir (1992-1997)   Glovebox  Flame Spread 
+– CFM, CFM-Mir  (1992-1996)    Glovebox  Candles 
+– SCM, MSC (1992-2000)    Glovebox /GAS Smoldering 
+– DARTFIRE, SAL  (1994-1998)    Sounding Rocket  Flame Spread 
+Droplet Combustion 
+– DCE(1997)      Spacelab  
+– FSDC 1, 2  (1995-1997)    Glovebox  
+Gaseous Non-premixed (Gas Jets) 
+– LSP(1997, 2003)     Spacelab/Hab   
+– ELF(1997 )      Glovebox,  
+– TGDF (1997)    GAS  
+Gaseous Premixed 
+– SOFBALL(1997, 2003)     Spacelab/Hab   
+Fire Safety 
+– CSD (1996)      Glovebox  
+– MIST (2003)     SpaceHab  
+=== PAGINA 7 ===
+7 
+Flight results: Flame Spread  
+Ignition at the middle of the sample: 
+•Flame spreads upstream. 
+•This is completely contrary to normal gravity 
+Air Flow 
+=== PAGINA 8 ===
+8 
+Flight Results: Premixed Flames 
+Flame Balls 
+• Unique combustion phenomena 
+• Hypothetically predicted 
+• Impossible to observe in 1-g 
+• “Premixed Diffusion Flame” 
+• Weakest flames ever burned ~1 
+Watt 
+• Demonstrated weaknesses in 
+kinetic submodels 
+• Much steadier than expected ( ~ 1 
+orbit) 
+• G-sensitivity greater than 
+anticipated.. 
+ 
+ 
+ 
+=== PAGINA 9 ===
+9 
+Droplet Combustion 
+39% (of total US energy) is from liquid fuels 
+(97% of transportation energy is liquid fuels) 
+• Droplet experiments provide an idealized 
+geometry to develop fundamental experimental 
+data to validate detailed chemical kinetic models 
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+0 2 4 6 8 10 12 14 16
+Time (s)
+Droplet Diameter Squared (mm
+2
+)
+0
+100
+200
+300
+400
+500
+600
+700
+800
+Flame Diameter Squared (mm
+2
+)
+D0 = 3.89 mm
+D0 = 3.19 mm
+Heptane droplet burning at atmospheric pressure 
+in 30-70 O2-He mole fraction environment 
+=== PAGINA 10 ===
+10 
+CANDLE FLAMES  
+ 
+Classical diffusive 
+combustion system  
+ 
+Excellent tutorial for the 
+public  
+ 
+Challenging system for 
+detailed modeling 
+ 
+ 
+Demonstrated the long term 
+viability of diffusion flames 
+on condensed fuels   
+  
+ 
+ 
+Diffusion Flames / Soot 
+
+=== PAGINA 11 ===
+11 
+Flight results: Diffusion Flames / Soot 
+• Soot measurements in non-
+buoyant flames supporting model 
+development 
+• Smoke points found in low-
+gravity contrary to predictions in 
+literature. 
+
+=== PAGINA 12 ===
+12 
+Combustion Science - ISS Experiments 
+• Gaseous Combustion 
+– Dust and Aerosol measurement Feasibility Test (DAFT) – 2006, MSG 
+– Smoke Aerosol Measurement Experiment, and Reflight (SAME, SAME-R) – 2007, 2010 
+MSG 
+– Smoke Point in Coflow Experiment (SPICE) – 2009, MSG 
+– Structure and Liftoff in Combustion Experiment (SLICE) – 2012, MSG 
+– Advanced Combustion via Microgravity Experiments (ACME) –CIR 
+• Liquid Combustion 
+– Multi-User Droplet Combustion Apparatus (MDCA)/FLame Extinguishment eXperiment 
+(FLEX) – 2009-2012, CIR 
+– FLame Extinguishment eXperiment-2 (FLEX-2), CIR, with JAXA & ISA 
+• Materials Combustion  
+– Burning and Suppression of Solids (BASS), 2012, MSG 
+–  Flammability Assessment of Materials for Exploration (FLAME) 
+• Reactive Systems 
+– High Temperature Insert - Reflight (HTI-R/SCWM), DECLIC, CNES-led experiment 
+• Fire Safety 
+– Spacecraft Fire Safety Demonstration flight 
+=== PAGINA 13 ===
+13 
+Flame Extinction Experiment (FLEX) – 2009 through 2012 
+FLEX-2, FLEX-2J, FLEX-ICE-GA  –  2012 through 2015 
+ 
+ 
+ 
+ 
+ 
+ISS Results Droplet Combustion 
+13 
+(Left) FLEX Chamber Insert Assembly  
+Apparatus.  (Right) Mike Fincke 
+operating the CIR. 
+(Left) FLEX Chamber Insert Assembly  
+Apparatus.  (Right) Mike Fincke 
+operating the CIR. 
+• Spherically-symmetric geometry only 
+achievable in microgravity. 
+• Extinction test bed 
+• Kinetic and transport processes 
+• Over 400 droplets burned to date. 
+ 
+• FLEX   Fire Extinguishment via inerts 
+• FLEX-2 extends the studies to consider issues 
+relevant to energy and fuel efficiency by including 
+complexities: 
+• Multi-component fuels, 
+• Binary droplet arrays 
+• Convective airflow 
+• FLEX-2J is a collaboration with JAXA:   linear 
+droplet arrays 
+• FLEX-ICE-GA is a collaboration with ASI 
+:Surrogate fuels (idealized bio-fuels) 
+=== PAGINA 14 ===
+14 
+Limiting Oxygen Index (LOI) Tests  
+LOI =  f 
+[Pt, U] 
+radiative 
+extinctio
+n 
+De 
+O2 mole % 
+blow-off 
+extinctio
+n 
+D
+o 
+D
+e
+` 
+FLEX Investigation results 
+Cool Flame Results 
+LOI’s typically lower than in 1-g 
+ 
+NFPA standard for portable CO2 extinguishers 
+not conservative enough for enriched O2 (e.g., 
+EVA pre-breathe), microgravity environment 
+=== PAGINA 15 ===
+15 
+Smoke Point in Co-flow Experiment (SPICE) – 2010 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gaseous Diffusion Flames (MSG) 
+15 
+SPICE Experiment 
+Assembly 
+Soot control remains one of the major unsolved  
+issues in combustion.  Soot: 
+• Is the dominant source of radiant heat 
+• Is a major pollutant and health risk 
+• Is desired in some combustors and not in 
+others. 
+Still images showing the onset of the smoke 
+point 
+75% C3H6
+1.6 mm Burner
+uf = 41.9 cm/s
+75% C3H6
+1.6 mm Burner
+uair = 50.5 cm/s
+uf =  28.2       32.9       37.6       42.3 cm/s
+uair = 59.0       55.2       47.7       36.4 cm/s
+30 mm
+Soot emission in flames is the result of 
+the interplay of soot formation and 
+soot oxidation kinetics.  The smoke 
+point is a long standing measure of the 
+sooting propensity of fuels used in fuel 
+selection and flame radiation 
+modeling. 
+Initially deemed not possible in reduced 
+gravity, the smoke point has been 
+found to be substantially different in 
+reduced gravity. 
+SPICE has extended this observation to 
+consider the impact of the coflowing 
+air stream on the smoke point 
+ 
+
+=== PAGINA 16 ===
+16 
+Structure & Liftoff In Combustion Experiment (SLICE) – 2012 
+• Study of flame structure and stability limits. 
+– Support the ACME Coflow Laminar Diffusion Flame (CLD Flame) experiment 
+– Enables validation of combustion models over a wider parameter range.  
+• Preliminary results 
+– Lower flame temperatures  
+– Dramatically increased soot concentrations in microgravity  
+– Stability data indicates that the 0g/1g difference in forced air flow at liftoff is comparable to the 
+buoyant velocity in the 1g flames 
+ 
+ 
+ 
+ 
+ 
+ISS Results Gaseous Diffusion Flames (MSG) 
+1g 0g 
+Temperature 
+1g 0g 
+Soot Volume Fraction 
+1g 0g 
+100% CH4 flame 
+1-g 0-g 
+Temperature 
+1-g 0-g 
+Soot V olume Fraction 
+1-g 0-g 
+100% CH4 flame 
+
+=== PAGINA 17 ===
+17 
+The Burning and Suppression of Solids Experiment (BASS) – 2012 
+in process now 
+ 
+ 
+ 
+ 
+ 
+ 
+ISS Results Solid Fuel Combustion-Material Flammability 
+BASS in MSG 
+Don Pettit running BASS 
+Spherical PMMA sample 
+ in BASS.  N2 Jet does not 
+extinguish flame, only blows 
+out stagnation region. Wake 
+region continues to burn. 
+Nomex III burning in 
+BASS in air.  This 
+material will not burn 
+in air on earth.  
+Recent Results: 
+Material Flammability:  Results to date indicate that  NASA-
+STD 6001 Test 1 is not conservative, and materials can 
+burn at lower oxygen levels in microgravity than on Earth. 
+ 
+Extinguishment: Results to date indicate that local application 
+of suppressant is not adequate.  The local jet entrains air 
+and sustains the flame even when the ambient air flow is 
+turned off. 
+N2 flow makes candle 
+flame longer, it does not 
+put it out. 
+Relevance/Impact: 
+Spacecraft fires are a significant risk factor for human exploration.   
+ 
+Understanding material flammability and suppression in actual spacecraft        
+environments is needed  
+ 
+Long-duration microgravity data is needed for all but the thinnest films. 
+ 
+ 
+Image analysis 
+=== PAGINA 18 ===
+18 
+The Smoke Aerosol Measurement Experiment (SAME) – 
+2007 & 2010 
+• Spacecraft fire is a recognized risk however there has 
+been limited study of fires in 0-gravity. 
+• Current fire detection and suppression systems are 
+consequently based on 1-g experience not 0-g fires 
+• The reduced airflow seen in low-gravity enhances the 
+smoke residence time near the source, enabling 
+enhanced particle growth. 
+• SAME pyrolyzed 5 materials commonly found  in 
+spacecraft and made measurements of the particle size 
+distribution 
+• Smoke particles produced in low gravity are typically 
+twice the size on those produced in normal gravity 
+however the overall morphologies are similar. 
+• These measurements will enable rational design of 
+spacecraft smoke detectors. 
+ 
+ 
+ 
+ 
+ 
+ISS Results Spacecraft Fire Safety 
+SAME in MSG 
+TEM photos of smoke particles from different 
+materials (clockwise from the top: Pyrell, Teflon and 
+Cotton) Horizontal dimension of images ~ 2 microns 
+
+=== PAGINA 19 ===
+19 
+Advanced Combustion via Microgravity Experiments 
+(ACME) 
+Objectives: 
+• Exploit 1-D geometry to study 
+– Soot inception and growth 
+– combustion structure and stability near flammability limits 
+– emission reduction through nitrogen exchange 
+• Exploit low-g environment to study 
+– Flame structure under lifted conditions 
+– combustion stability enhancements via an electric field 
+– Flammability Limits on solid fuels through planar burner analogy 
+ 
+Relevance/Impact: 
+• Soot and pollutant control through “designed flames” 
+ 
+• Verified computational models - enable the design of high efficiency, 
+low emission combustors operating at near-limit conditions 
+ 
+• Reduced design costs due to improved capabilities to numerically 
+simulate combustion processes 
+ 
+Development Approach: 
+• Multi-user, re-usable CIR Insert 
+19 
+Revision Date:  3/27/12 
+
+=== PAGINA 20 ===
+20 
+Flammability Assessment of Materials for 
+Exploration (FLAME) 
+Objective: 
+• To study and characterize ignition and flammability of solid 
+spacecraft materials in practical geometries and realistic 
+atmospheric conditions 
+Relevance/Impact: 
+• Enable improved selection of cabin materials and validate NASA 
+materials-flammability selection protocols for low-gravity fires 
+• Improve understanding of early fire growth behavior 
+• Validate material flammability numerical models 
+• Determine optimal suppression techniques for burning materials 
+by diluents, flow reduction, and venting 
+ 
+Development Approach: 
+• Develop FLAME facility (CIR or MSG insert) to support  multiple 
+solid-material combustion and  fire suppression studies 
+• Utilize Combustion Integrated Rack (CIR) or Microgravity Science 
+Glovebox (MSG) 
+20 
+CIR Facility on 
+ISS 
+CIR Insert – FLEX 
+(Similar to anticipated 
+FLAME insert) 
+Flat, Spherical, and 
+Cylindrical samples (L to 
+R) burning in 1-g 
+Revision Date:  3/27/12 
+=== PAGINA 21 ===
+21 
+before 
+ after 
+Solubility curves of salts in trans-
+critical water 
+Supercritical Water Oxidation (SCWO) - DECLIC 
+Supercritical Water Mixture (SCWM) Experiment - planned for Spring of 2013 
+Relevance/Impact: 
+• Supercritical Water Oxidation (SCWO) …  a combustion regime occurring in water at temperatures and 
+pressures in excess of water’s critical point (Tc = 374°C,   P = 218 atm) 
+• Benefits from this oxidation regime …  
+‒ single phase … reactions are not slowed by inter-phase transport 
+‒ behaves like a dense gas … high diffusion rates, very rapid reaction rates 
+‒ organic materials and gases (e.g., O2) are highly soluble in supercritical water 
+• Largest technological hurdle … fouling / corrosion from precipitated salts  
+Science Objectives: 
+• SCWM experiment will be used to develop 
+mitigation strategies to deal with fouling and 
+corrosion caused by salt deposits 
+‒ Quantify critical point for salt/water mixture 
+‒ Determine the onset of precipitation  
+‒ Characterize the transport processes of the 
+precipitate 
+ 
+ 
+ 
+Approach: 
+• SCWM uses a refurbished insert, High 
+Temperature Insert (HTI-R) in DECLIC 
+• Test cell filled with water/salt solution (0.5%-w 
+Na2SO4) 
+steel rod, heated to above Tc … 
+both before and after 15 
+minutes of exposure 
+=== PAGINA 22 ===
+22 
+Spacecraft Fire Safety Demonstration 
+2
+2 
+• Most U.S. agencies responsible for inhabited 
+structures and transportation systems conduct 
+full-scale fire tests to  address gaps in fire 
+safety knowledge and prove equipment and 
+protocols. 
+• NASA has been unable to conduct such tests 
+owing to risk to the crew. 
+• Unmanned vehicles provide a new opportunity. 
+• Demonstration of this operational concept 
+could allow future experiments to investigate 
+additional fire safety technologies and 
+protocols or in unrelated areas. 
+Experiment Objective: 
+Determine the fate of a large-scale microgravity 
+fire  
+1. Spread rate, mass consumption, and heat 
+release 
+• Is there a limiting size in microgravity? 
+2. Confirm that low-g flammability limits are less 
+than those in normal gravity 
+• Are drop tower results correct? 
+FAA full scale aircraft test 
+Naval Research Laboratory 
+Ex-USS Shadwell 
+ESA’s  ATV 
+approaching the ISS 
+Orbital Science’s Cygnus 
+approaching ISS 
+Controlled burns of 
+structures 
+
+=== PAGINA 23 ===
+23 
+Mission Concept 
+Cygnus 
+approaching 
+ISS 
+Unpack cargo, reload with trash 
+23 
+Proposed location of the 
+SFS Demo experiment 
+(back of vehicle) 
+
+=== PAGINA 24 ===
+24 
+Conclusions 
+• Microgravity Combustion research has had significant impact on 
+the combustion discipline and can be expected to continue to 
+make strong contributions. 
+ 
+• Research directions in spacecraft fire safety have promise to 
+significantly improve vehicle safety 
+ 
+• The microgravity environment continues to be a critical resource 
+for improved understanding of combustion phenomena. 
+ 
+• The combustion discipline has been very successful in utilizing 
+low gravity to advance the field and is anxious to seek further 
+opportunities. 

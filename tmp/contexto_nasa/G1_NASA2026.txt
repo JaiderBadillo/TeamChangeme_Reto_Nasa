@@ -1,0 +1,108 @@
+
+=== PAGINA 1 ===
+Guía de aprendizaje y desarrollo: Flame in Freefall 
+Construir una herramienta que permita explorar experimentos de la NASA, 
+comparar sus resultados, encontrar patrones y explicar qué implican para la 
+seguridad contra incendios en futuras misiones a la Luna y Marte. 
+La NASA cuenta con repositorios públicos de investigaciones y datos 
+experimentales que pueden servir como punto de partida. Por ejemplo, su 
+repositorio Physical Sciences Informatics (PSI) incluye investigaciones 
+sobre combustión y seguridad contra incendios en naves espaciales: 
+https://psi.nasa.gov/physci/repo/search?q=&data_source=psi&data_type=inv
+estigation  
+Para lo que necesitamos deben seleccionar el área de Combustion 
+Science. 
+1. El problema científico 
+https://www.nasa.gov/glenn/glenn-expertise-space-
+exploration/physical-sciences-program/combustion-science/ 
+¿Por qué es importante la combustión en el espacio? 
+• Impacto terrestre: En la Tierra, la combustión genera 
+aproximadamente el 85 % de la energía que consumimos y es clave 
+en procesos industriales. Sin embargo, también produce gases de 
+efecto invernadero y hollín, lo que contribuye al cambio climático y a 
+problemas de salud. 
+
+=== PAGINA 2 ===
+• El problema de la gravedad: En la Tierra, las fuerzas de flotabilidad 
+(creadas por la gravedad y las diferencias extremas de temperatura) 
+dominan y oscurecen los fenómenos físicos y químicos de las llamas 
+(como el parpadeo y la inclinación hacia arriba), lo que dificulta 
+estudiarlas y modelarlas matemáticamente a fondo. 
+El papel del entorno espacial (Microgravedad y la EEI) 
+Al realizar experimentos en la Estación Espacial Internacional (EEI), 
+se elimina la gravedad, lo que suprime la flotabilidad. Esto simplifica 
+el análisis de las llamas permitiendo sistemas unidimensionales 
+mucho más limpios. 
+Permite recopilar datos fundamentales para mejorar la eficiencia 
+energética, reducir la contaminación en la Tierra y comprender mejor 
+los riesgos de incendios en naves espaciales. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PAGINA 3 ===
+La investigación en ciencia de la combustión abarca diversos temas clave, 
+entre los cuales destacan: 
+• Seguridad contra incendios en naves espaciales (Spacecraft Fire 
+Safety). 
+• Combustión de gotas de combustible (Droplets). 
+• Combustibles gaseosos, tanto premezclados como no premezclados 
+(Gaseous – Premixed and Non-Premixed). 
+• Combustibles sólidos (Solid Fuels). 
+• Fluidos reactivos supercríticos (Supercritical Reacting Fluids). 
+3. Experimentos destacados actuales y pasados 
+• FM2 (Flammability of Materials on the Moon): El primer 
+experimento de combustión realizado en otro cuerpo planetario, 
+investigando la quema de materiales bajo la gravedad reducida de la 
+Luna (1/6 de la terrestre). 
+Link 1 – Link 2 
+• SoFIE (Solid Fuel Ignition and Extinction): Estudia el crecimiento 
+del fuego y las técnicas de seguridad contra incendios en el espacio, 
+mejorando las normativas de selección de materiales. 
+Link 1  – Link 2 
+• FLARE (Flammability Limits At Reduced-g Experiment): Proyecto 
+internacional enfocado en desarrollar metodologías para estimar los 
+límites de inflamabilidad de los materiales en microgravedad a partir 
+de datos obtenidos en la Tierra. 
+Link 
+• BASS / BASS-II (Burning and Suppression of Solids): El hardware 
+se utilizaba para observar cómo se propagan las llamas sobre 
+materiales sólidos y cómo actúan los flujos de aire y los agentes 
+supresores, lo que ayuda a mejorar drásticamente las normas de 
+seguridad contra incendios en el espacio. 
+Link 1 - Link 2 – Link 3 – Link 4 
+• FLEX / FLEX-2 (Flame Extinguishment Experiment): Diseñado 
+para estudiar la combustión de gotas de combustible líquido en 
+=== PAGINA 4 ===
+microgravedad. Al eliminar los efectos de la gravedad, las llamas de 
+las gotas de combustible se vuelven esféricas y simétricas.  
+Link 1 – Link 2 
+• SAME (Smoke Aerosol Measurement Experiment): Su objetivo 
+principal era probar y garantizar el correcto funcionamiento de 
+detectores de humo especializados en el espacio (como dispositivos 
+modificados tipo P-Trak). Esto es vital, ya que los detectores 
+espaciales deben diferenciar con precisión los distintos tipos de humo 
+generados en una nave (como el hollín típico de combustibles 
+hidrocarburos frente a las partículas emitidas por plásticos derretidos). 
+Link 1 – Link 2 – Link 3 
+• SPICE (Smoke Point in Co-flow Experiment): Estudiaba los 
+fenómenos relacionados con los mecanismos que controlan la 
+estabilidad y la extinción de llamas de chorro de difusión (jet diffusion 
+flames), centrándose específicamente en el umbral exacto en el que 
+las llamas de gas comienzan a emitir hollín. Los datos recopilados 
+sirven para entender mejor cómo la microgravedad y el flujo de aire 
+influyen en la producción de hollín y la liberación de calor, 
+optimizando tanto los criterios de seguridad espacial como el diseño 
+de motores de reacción y hornos industriales en la Tierra. 
+Link  
+ 
+Otros Datasets: 
+https://data.nasa.gov/dataset/?q=fire&organization=nasa&sort=score+desc
+%2C+metadata_modified+desc  
