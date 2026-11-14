@@ -115,14 +115,14 @@ function extractJsonRows(parsed: unknown): DataRow[] {
   return []
 }
 
-function inspectColumns(rows: DataRow[]) {
+export function inspectColumns(rows: DataRow[]) {
   const colSet = new Set<string>()
   for (const r of rows) {
     Object.keys(r).forEach((k) => colSet.add(k))
   }
   const columns = Array.from(colSet)
   const numericColumns = columns.filter((col) =>
-    rows.some((r) => typeof r[col] === 'number' && !Number.isNaN(r[col] as number)),
+    rows.some((r) => typeof r[col] === 'number' && Number.isFinite(r[col])),
   )
   return { columns, numericColumns }
 }

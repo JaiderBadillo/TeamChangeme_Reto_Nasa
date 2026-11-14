@@ -1,10 +1,10 @@
 # CombusLab
 
-The React/Vite dashboard and the read-only API share the Vercel deployment. The Research page queries the NASA catalog, trial details and time series. The local file explorer is available separately under Data.
+Vercel Services builds the React/Vite dashboard and the Python FastAPI backend from the same commit. The dashboard uses the same domain for `/api` requests. Ranking loads NASA PSI trials automatically, Research shows trial details and time series, and Data accepts CSV and JSON files.
 
 ## Local development
 
-From the repository root, run `npm ci` and `npm run api`. The API listens on port 8787. In a second terminal, run `npm ci` and `npm run dev` inside `dashboard/`. Vite proxies `/api` to the local server.
+From `Changeme_Nasa`, run `python -m pip install -r backend/requirements.txt` and `python -m uvicorn main:app --app-dir backend --port 8787 --env-file .env`. In a second terminal, run `npm ci` and `npm run dev` inside `dashboard/`. Vite proxies `/api` to the local server.
 
 The API requires `COMBUSLAB_DB_HOST`, `COMBUSLAB_DB_USER`, `COMBUSLAB_DB_PASSWORD`, and `COMBUSLAB_DB_CA`. The CA variable contains the PEM certificate and the user includes the project suffix on the Supabase Session pooler. These values belong in the ignored root `.env` locally and in the server-side environment for deployment.
 
@@ -12,6 +12,8 @@ The API requires `COMBUSLAB_DB_HOST`, `COMBUSLAB_DB_USER`, `COMBUSLAB_DB_PASSWOR
 
 | Request | Response |
 |---|---|
+| `GET /api/health` | Python service status. |
+| `GET /api/ranking` | Trial records from NASA PSI with published metrics and source links. |
 | `GET /api/catalog?investigation_id=PSI-25&page=1` | Up to 20 trial records with coverage flags. Optional filters are `q`, `flow_min` and `flow_max` in cm/s. |
 | `GET /api/experiment?experiment_id=PSI-25:B10:r11` | BASS-II trial metadata, PSI provenance and six tabular conditions. |
 | `GET /api/series?experiment_id=PSI-100:S1:r2&from_s=0&to_s=60` | 1,877 synchronized rows with O₂ and CO₂, units, provenance and time in seconds. |

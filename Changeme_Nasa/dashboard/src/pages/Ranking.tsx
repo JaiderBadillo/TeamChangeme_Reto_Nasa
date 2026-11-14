@@ -3,13 +3,27 @@ import { Link } from 'react-router-dom'
 import { ArrowUpDown, SlidersHorizontal, Upload } from 'lucide-react'
 import { DynamicBarChart, EmptyChartState } from '../components/Charts'
 import { FlameTitle } from '../components/FlameTitle'
-import { useDataStore } from '../context/DataStoreContext'
+import { RequestStatus, useReading } from '../components/ScientificReading'
+import { inspectColumns, useDataStore, type DataRow } from '../context/DataStoreContext'
+
+const nasaDatasetId = 'nasa-psi-catalog'
 
 export function Ranking() {
-  const { datasets, activeDataset, setActiveDatasetId } = useDataStore()
+  const { datasets: manualDatasets, activeDataset: manualDataset, setActiveDatasetId } = useDataStore()
+  const nasa = useReading<{ rows: DataRow[] }>('/api/ranking')
+  const [useNasa, setUseNasa] = useState(!manualDataset)
   const [sortOrder, setSortOrder] = useState<'desc' | 'asc'>('desc')
   const [selectedMetric, setSelectedMetric] = useState<string>('')
   const [selectedLabel, setSelectedLabel] = useState<string>('')
+  const nasaRows = nasa.data?.rows
+  const nasaDataset = useMemo(() => nasaRows && ({
+    id: nasaDatasetId, name: 'NASA PSI', rows: nasaRows, ...inspectColumns(nasaRows),
+  }), [nasaRows])
+  const datasets = nasaDataset ? [nasaDataset, ...manualDatasets] : manualDatasets
+  const activeDataset = (useNasa ? nasaDataset ?? manualDataset : manualDataset ?? nasaDataset)
+  const sourceCount = (nasaRows ? new Set(nasaRows.map((row) => row.investigation_id)).size : 0) + manualDatasets.length
+  const awaitingNasa = !nasa.data && !nasa.error
+  const noActiveValue = awaitingNasa || nasa.error ? '—' : 0
 
   const labelCol = useMemo(() => {
     if (!activeDataset) return ''
@@ -26,7 +40,7 @@ export function Ranking() {
   const rankedRows = useMemo(() => {
     if (!activeDataset || !metricCol) return []
     return [...activeDataset.rows]
-      .filter((r) => typeof r[metricCol] === 'number')
+      .filter((r) => typeof r[metricCol] === 'number' && Number.isFinite(r[metricCol]))
       .sort((a, b) => {
         const va = a[metricCol] as number
         const vb = b[metricCol] as number
@@ -40,28 +54,29 @@ export function Ranking() {
 
       <section className="svg-black-panel p-6 md:p-10 space-y-8">
         <p className="svg-lead-text max-w-3xl mx-auto text-center">
-          Prioritize and rank records dynamically from any uploaded{' '}
-          <strong className="text-[#FEB352] font-semibold">JSON / CSV dataset</strong> or connected API endpoint — clean workspace with zero preloaded data.
+          Rank NASA PSI trials by a measured condition or analyze an uploaded JSON / CSV dataset.
         </p>
+
+        {!nasa.data && <RequestStatus error={nasa.error} retry={nasa.retry} />}
 
         {/* Live KPI Strip */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3.5">
           <div className="svg-subpanel p-4">
             <p className="text-xs uppercase tracking-wider text-[#E2B84D]">Connected Sources</p>
-            <p className="mt-1 font-[var(--font-display)] text-3xl font-bold text-[#B7E4F9]">{datasets.length}</p>
-            <p className="mt-1 text-xs text-[#9B8F83]">Uploaded files or live endpoints</p>
+            <p className="mt-1 font-[var(--font-display)] text-3xl font-bold text-[#B7E4F9]">{sourceCount || noActiveValue}</p>
+            <p className="mt-1 text-xs text-[#9B8F83]">NASA investigations and manual sources</p>
           </div>
           <div className="svg-subpanel p-4">
             <p className="text-xs uppercase tracking-wider text-[#E2B84D]">Active Records</p>
             <p className="mt-1 font-[var(--font-display)] text-3xl font-bold text-[#FEB352]">
-              {activeDataset?.rows.length ?? 0}
+              {activeDataset?.rows.length ?? noActiveValue}
             </p>
             <p className="mt-1 text-xs text-[#9B8F83]">Rows ready for ranking</p>
           </div>
           <div className="svg-subpanel p-4">
             <p className="text-xs uppercase tracking-wider text-[#E2B84D]">Numeric Metrics</p>
             <p className="mt-1 font-[var(--font-display)] text-3xl font-bold text-[#F8CA54]">
-              {activeDataset?.numericColumns.length ?? 0}
+              {activeDataset?.numericColumns.length ?? noActiveValue}
             </p>
             <p className="mt-1 text-xs text-[#9B8F83]">Detected quantitative fields</p>
           </div>
@@ -69,7 +84,7 @@ export function Ranking() {
             <div>
               <p className="text-xs uppercase tracking-wider text-[#E2B84D]">Workspace State</p>
               <p className="mt-1 font-[var(--font-display)] text-xl font-bold text-[#F5EDE4]">
-                {activeDataset ? activeDataset.name : 'Awaiting Data'}
+                {activeDataset?.name ?? (awaitingNasa ? 'Loading NASA PSI' : nasa.error ? 'NASA PSI unavailable' : 'Awaiting Data')}
               </p>
             </div>
             <Link to="/data" className="mt-2 inline-flex items-center gap-1.5 text-xs font-semibold text-[#FEB352] hover:text-[#B7E4F9]">
@@ -102,11 +117,15 @@ export function Ranking() {
               <select
                 disabled={datasets.length === 0}
                 value={activeDataset?.id ?? ''}
-                onChange={(e) => setActiveDatasetId(e.target.value || null)}
+                onChange={(e) => {
+                  const id = e.target.value
+                  setUseNasa(id === nasaDatasetId)
+                  if (id !== nasaDatasetId) setActiveDatasetId(id)
+                }}
                 className="svg-input w-full px-3 py-2 text-sm disabled:opacity-50"
               >
                 {datasets.length === 0 ? (
-                  <option value="">No datasets uploaded</option>
+                  <option value="">No datasets available</option>
                 ) : (
                   datasets.map((d) => (
                     <option key={d.id} value={d.id}>
@@ -164,14 +183,14 @@ export function Ranking() {
           <div>
             <h2 className="svg-section-heading text-xl md:text-2xl">Ranked Visualization</h2>
             <p className="text-xs text-[#9B8F83] mt-0.5">
-              Horizontal Chart.js ranking updates automatically once you connect or upload your own dataset.
+              The chart shows up to 15 trials with a value for the selected metric.
             </p>
           </div>
 
           {rankedRows.length > 0 && labelCol && metricCol ? (
             <DynamicBarChart rows={rankedRows.slice(0, 15)} labelColumn={labelCol} valueColumn={metricCol} horizontal />
           ) : (
-            <EmptyChartState />
+            <EmptyChartState title="No ranking to display" subtitle="Select a source and a metric with numeric values." />
           )}
         </div>
 
@@ -181,7 +200,7 @@ export function Ranking() {
 
           {rankedRows.length === 0 ? (
             <div className="svg-subpanel p-6 text-center text-xs text-[#9B8F83]">
-              No ranked records available yet. Upload a dataset in <Link to="/data" className="text-[#FEB352] hover:underline">Data</Link>.
+              No records with a value for the selected metric.
             </div>
           ) : (
             <div className="space-y-2.5">
