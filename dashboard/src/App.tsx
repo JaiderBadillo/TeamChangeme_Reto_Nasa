@@ -28,14 +28,17 @@ function Shell() {
           <NavLink
             to="/ranking"
             onClick={() => setMobileMenuOpen(false)}
-            className="flex flex-col items-center gap-1 focus:outline-none"
-            aria-label="Flame in Freefall Home"
+            className="flex flex-row lg:flex-col items-center gap-2.5 lg:gap-2 focus:outline-none"
+            aria-label="CombusLab Home"
           >
             <img
               src={logoSvg}
-              alt="Flame in Freefall emblem"
-              className="w-12 h-12 lg:w-[74px] lg:h-[74px] object-contain"
+              alt="CombusLab emblem"
+              className="w-11 h-11 lg:w-[70px] lg:h-[70px] object-contain"
             />
+            <span className="font-[var(--font-display)] text-xl lg:text-[1.45rem] font-bold tracking-tight text-black leading-none">
+              CombusLab
+            </span>
           </NavLink>
 
           <button
@@ -70,11 +73,7 @@ function Shell() {
           </nav>
         </div>
 
-        <div className="hidden lg:block text-center pt-8">
-          <p className="font-[var(--font-mono)] text-[11px] font-medium text-[#5A5652]">
-            Flame in Freefall
-          </p>
-        </div>
+        <div className="hidden lg:block pt-4" />
       </aside>
 
       <main className="flex-1 min-w-0 px-4 sm:px-6 lg:px-10 py-6 lg:py-8">
