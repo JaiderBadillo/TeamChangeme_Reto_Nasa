@@ -23,6 +23,8 @@ El reto [Flame in Freefall de NASA Space Apps](https://www.spaceappschallenge.or
 
 **Recorridos de demostración.** Buscar BASS-II, abrir M7, ver el gráfico y ubicar la fuente. Luego comparar fichas y explicar si comparten una métrica. Por último, consultar un escenario lunar y mostrar qué tipo de evidencia existe en el catálogo. El producto admite varios recorridos y temas.
 
+> **Datos vigentes para implementación.** El dashboard local usa los JSON de [la documentación de datasets](../datasets/README.md). Incluyen toda la tabla 5.1, la tabla 7.1, la tabla 2.1 y resultados del apéndice D. El CSV de M7 es la extracción piloto. Los ejemplos que lo mencionan conservan su valor como prueba de la primera ficha.
+
 ## 2. Navegación y comportamiento por pantalla
 
 | Pantalla y ruta propuesta | Contenido mínimo | Acciones y estados |

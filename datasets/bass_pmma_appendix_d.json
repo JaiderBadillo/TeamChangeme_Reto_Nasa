@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "investigationId": "BASS",
+  "material": "PMMA",
+  "evidenceType": "experimental_report",
+  "slabObservation": {
+    "source": {
+      "report": "NASA/TM-20210011385",
+      "table": null,
+      "printedPage": 127,
+      "url": "https://ntrs.nasa.gov/api/citations/20210011385/downloads/TM-20210011385.pdf",
+      "section": "D.7",
+      "figure": "D.6"
+    },
+    "runId": null,
+    "widthCm": 1,
+    "burningSides": 1,
+    "airflowCmS": null,
+    "burnDurationMin": 7.5,
+    "flameSpreadMmS": 0.037,
+    "steadyFlameLengthMm": 15
+  },
+  "sphere": {
+    "source": {
+      "report": "NASA/TM-20210011385",
+      "table": "D.2",
+      "printedPage": 128,
+      "url": "https://ntrs.nasa.gov/api/citations/20210011385/downloads/TM-20210011385.pdf"
+    },
+    "sampleId": 19,
+    "diameterCm": 1,
+    "initialMassMg": 617.5,
+    "runs": [
+      {
+        "runId": "18",
+        "startTime": "14:45:25",
+        "endTime": "14:47:05",
+        "burnDurationSec": 100,
+        "airflowCmS": null
+      },
+      {
+        "runId": "19",
+        "startTime": "10:37:40",
+        "endTime": "10:38:30",
+        "burnDurationSec": 50,
+        "airflowCmS": null
+      },
+      {
+        "runId": "20",
+        "startTime": "10:55:25",
+        "endTime": "10:56:40",
+        "burnDurationSec": 75,
+        "airflowCmS": null
+      },
+      {
+        "runId": "21",
+        "startTime": "11:17:35",
+        "endTime": "11:19:05",
+        "burnDurationSec": 100,
+        "airflowCmS": null,
+        "elapsedSecFromTimestamps": 90,
+        "qualityFlag": "reported_duration_differs_from_timestamps"
+      }
+    ]
+  }
+}
